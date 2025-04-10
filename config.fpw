@@ -1,0 +1,4 @@
+* File: config.fpw
+* FoxPro configuration file
+SCREEN = OFF
+RESOURCE = (path to resource file)
