@@ -1,3 +1,14 @@
 * File: Departments.dbf
 * Department database
 * Fields: Id, Name
+Id, Name
+1, Human Resources
+2, Engineering
+3, Marketing
+4, Sales
+5, IT
+6, Finance
+7, Customer Service
+8, Research and Development
+9, Legal
+10, Administration

@@ -1,3 +1,27 @@
 * File: Employees.dbf
 * Employee database
 * Fields: Id, FirstName, LastName, DepartmentId
+
+//records
+Id, FirstName, LastName, DepartmentId
+1, John, Doe, 1
+2, Jane, Smith, 2
+3, Michael, Johnson, 1
+4, Emily, Davis, 3
+5, William, Brown, 2
+6, Olivia, Wilson, 1
+7, James, Taylor, 3
+8, Isabella, Anderson, 2
+9, Benjamin, Thomas, 1
+10, Sophia, Jackson, 3
+11, Lucas, White, 2
+12, Mia, Harris, 1
+13, Henry, Martin, 3
+14, Amelia, Thompson, 2
+15, Alexander, Garcia, 1
+16, Charlotte, Martinez, 3
+17, Daniel, Robinson, 2
+18, Harper, Clark, 1
+19, Matthew, Rodriguez, 3
+20, Evelyn, Lewis, 2
+
