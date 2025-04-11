@@ -1,3 +1,30 @@
 * File: DepartmentsReport.frx
 * Department report
 * This file contains the design of the department report
+
+REPORT FORM DepartmentsReport.frx TO PRINTER PROMPT NOCONSOLE
+
+* Define the layout of the report
+* This is a simplified example of what the report design might look like
+
+* Report Header
+SET REPORT TO DepartmentsReport.frx
+SET REPORT TITLE "Department Report"
+SET REPORT PAGE HEADER "Company Name"
+SET REPORT PAGE FOOTER "Page: @PAGENO@"
+
+* Column Headers
+SET REPORT COLUMN HEADER "ID", "Department Name"
+
+* Detail Section
+SET REPORT DETAIL "Department.Id", "Department.Name"
+
+* Grouping and Sorting
+SET REPORT GROUP ON "Department.Name"
+SET REPORT ORDER BY "Department.Id"
+
+* Report Footer
+SET REPORT FOOTER "Total Departments: @RECCOUNT@"
+
+* End of Report
+SET REPORT END
