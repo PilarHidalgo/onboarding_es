@@ -1,8 +1,9 @@
 // File: Program.cs
+// File: Program.cs
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace RecursosHumanosCRUD
+namespace HumanResourcesCRUD
 {
     public class Program
     {

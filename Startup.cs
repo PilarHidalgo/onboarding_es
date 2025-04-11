@@ -1,13 +1,14 @@
 // File: Startup.cs
+// File: Startup.cs
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using RecursosHumanosCRUD.Data;
+using HumanResourcesCRUD.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace RecursosHumanosCRUD
+namespace HumanResourcesCRUD
 {
     public class Startup
     {
